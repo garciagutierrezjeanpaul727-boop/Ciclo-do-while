@@ -12,3 +12,4 @@ public class Ejemplo2 {
     }
 }
 
+// Validación de entrada

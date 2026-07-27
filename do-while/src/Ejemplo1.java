@@ -8,3 +8,4 @@ public class Ejemplo1 {
         } while (i <= 5);
     }
 }
+// Contador simple
