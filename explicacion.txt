@@ -1,0 +1,36 @@
+Ciclo do-while
+
+•  Definición: Ejecuta un bloque de instrucciones y luego evalúa una condición booleana. Si la condición es verdadera, repite el bloque; si es falsa, termina.
+•  Diferencia con while:
+•	while: evalúa la condición antes de ejecutar el bloque.
+•	do-while: evalúa la condición después, por lo que siempre se ejecuta al menos una vez.
+•  Sintaxis general:
+javaS
+do {
+    // Bloque de código
+} while (condición);
+
+Características principales
+•	Ejecución mínima garantizada: el bloque corre una vez aunque la condición sea falsa.
+•	Condición booleana: puede ser una comparación, variable, o función que retorne true/false.
+•	Uso típico: validaciones de entrada, menús, acumuladores, juegos de adivinanza.
+
+🔎 ¿Por qué existe el do-while?
+En muchos programas necesitas ejecutar un bloque de código al menos una vez, sin importar la condición inicial. El do-while fue creado para esos casos. Ejemplo típico: pedir datos al usuario. Aunque la condición sea inválida, el programa debe mostrar el mensaje de entrada al menos una vez.
+
+Funcionamiento paso a paso
+1.	Ejecuta el bloque de instrucciones.
+2.	Evalúa la condición booleana.
+3.	
+o	Si es verdadera, repite el bloque.
+o	Si es falsa, termina el ciclo.
+Comparación con otros ciclos
+•	for: ideal para repeticiones con conteo definido (ej. recorrer un arreglo).
+•	while: ideal para repeticiones condicionales donde puede que nunca se ejecute.
+•	do-while: ideal cuando necesitas ejecución inicial obligatoria (ej. menús, validaciones).
+Usos comunes en programación real
+•	Menús interactivos: repetir opciones hasta que el usuario elija salir.
+•	Validaciones de entrada: pedir datos hasta que sean correctos.
+•	Procesos iterativos: ejecutar cálculos al menos una vez antes de verificar condiciones.
+•	Juegos: repetir intentos hasta que se cumpla la condición de victoria.
+
